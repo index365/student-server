@@ -94,6 +94,7 @@ b) API 接口（StudentController）：
 - 默认运行在 8080 端口
 
 8. student数据库建表语句：
+```sql
 CREATE TABLE students (
   id BIGINT NOT NULL AUTO_INCREMENT,
   major VARCHAR(255) NOT NULL,
@@ -103,3 +104,4 @@ CREATE TABLE students (
   PRIMARY KEY (id),
   UNIQUE KEY (student_number)
 );
+```
