@@ -92,3 +92,14 @@ b) API 接口（StudentController）：
 - MySQL 数据库
 
 - 默认运行在 8080 端口
+
+8. student数据库建表语句：
+CREATE TABLE students (
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  major VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  phone VARCHAR(255) NOT NULL,
+  student_number VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY (student_number)
+);
