@@ -25,14 +25,14 @@
 - 支持获取所有学生信息列表
 
 3. 项目结构：
-
+```
 src/main/java/com/example/student/
 ├── controller/          # 控制器层，处理 HTTP 请求
 ├── service/            # 服务层，处理业务逻辑
 ├── repository/         # 数据访问层，与数据库交互
 ├── entity/            # 实体类，定义数据模型
 └── StudentServerApplication.java  # 应用程序入口
-
+```
 4. 核心功能模块：
 
 a) 学生实体（Student）：
